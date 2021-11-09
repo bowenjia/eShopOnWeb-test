@@ -1,4 +1,4 @@
-name: Dependabot auto-approve
+name: merge-pr
 #on: push
 on: pull_request_target
 
