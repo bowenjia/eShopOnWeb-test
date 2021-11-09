@@ -3,7 +3,6 @@ name: merge-pr
 on:
   pull_request_target:
     types: [assigned, opened, synchronize, reopened]
-  push:
 
 permissions:
   pull-requests: write
