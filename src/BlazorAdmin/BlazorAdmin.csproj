@@ -9,8 +9,12 @@
 		<PackageReference Include="BlazorInputFile" Version="0.2.0" />
 		<PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="6.0.0" />
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.0" />
 <<<<<<< HEAD
+=======
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.11" />
+>>>>>>> parent of 2d03499 (Bump Microsoft.AspNetCore.Components.WebAssembly from 5.0.11 to 6.0.0 (#44))
 =======
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.11" />
 >>>>>>> parent of 2d03499 (Bump Microsoft.AspNetCore.Components.WebAssembly from 5.0.11 to 6.0.0 (#44))
