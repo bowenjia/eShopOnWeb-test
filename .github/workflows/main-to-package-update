@@ -1,0 +1,23 @@
+name: main-to-package-update
+on: 
+  pull_request:
+    branches: [main]
+    types: [closed]
+jobs:
+  merge-master-back-to-dev:
+    if: github.event.pull_request.merged == true
+    timeout-minutes: 2
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set Git config
+      run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Github Actions"
+    - name: Merge master back to package-update
+      run: |
+          git fetch --unshallow
+          git checkout package-update
+          git pull
+          git merge --no-ff main -m "Auto-merge master back to package-update"
+          git push
