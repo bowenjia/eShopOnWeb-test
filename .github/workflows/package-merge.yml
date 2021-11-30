@@ -1,5 +1,5 @@
-name: package-Dependabot Pull Request Approve and Merge
 
+name: package-Dependabot Pull Request Approve and Merge
 on: 
   pull_request_target:
     branches:
@@ -49,5 +49,5 @@ jobs:
             git fetch --unshallow
             git checkout package-update
             git pull
-            git merge --no-ff origin/main -m "Auto-merge main back to package-update"            
+            git merge --no-ff origin/main -m "auto-merge main back to package-update"
             git push
