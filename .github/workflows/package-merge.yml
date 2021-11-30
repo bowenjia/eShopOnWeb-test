@@ -1,5 +1,5 @@
 
-name: package-Dependabot Pull Request Approve and Merge
+name: package-Dependabot PR Approve and Merge
 on: 
   pull_request_target:
     branches:
