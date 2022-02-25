@@ -22,6 +22,7 @@ jobs:
         # registry: https://hub.docker.com/repository/docker/webbb/hello
         # Username used to log against the Docker registry
         username: webbb
-        # Password or personal access token used to log against the Docker registry
-        password: 1234567890
-        # Specifies whether the given registry is ECR (auto, true or false)
+        password: 1234567890      
+        shell: bash
+        run: |
+            docker pull webbb/hello:pt
