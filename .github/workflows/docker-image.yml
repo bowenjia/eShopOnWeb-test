@@ -21,7 +21,7 @@ jobs:
         # Server address of Docker registry. If not set then will default to Docker Hub
         # registry: https://hub.docker.com/repository/docker/webbb/hello
         # Username used to log against the Docker registry
-        username: bowenjia@gmail.com
+        username: webbb
         # Password or personal access token used to log against the Docker registry
         password: 1234567890
         # Specifies whether the given registry is ECR (auto, true or false)
