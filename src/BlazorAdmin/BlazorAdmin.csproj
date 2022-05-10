@@ -10,13 +10,13 @@
 		<PackageReference Include="Microsoft.AspNetCore.Components.Authorization" Version="6.0.5" />
 <<<<<<< HEAD
 <<<<<<< HEAD
-		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.4" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.5" />
 <<<<<<< HEAD
 =======
-		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.4" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.5" />
 >>>>>>> parent of 2d03499 (Bump Microsoft.AspNetCore.Components.WebAssembly from 5.0.11 to 6.0.0 (#44))
 =======
-		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.4" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.5" />
 >>>>>>> parent of 2d03499 (Bump Microsoft.AspNetCore.Components.WebAssembly from 5.0.11 to 6.0.0 (#44))
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="6.0.4" />		
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.4" PrivateAssets="all" />
