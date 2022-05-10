@@ -20,12 +20,12 @@
 >>>>>>> parent of 2d03499 (Bump Microsoft.AspNetCore.Components.WebAssembly from 5.0.11 to 6.0.0 (#44))
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="6.0.4" />		
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.4" PrivateAssets="all" />
-		<PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.5" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="6.0.0" />
 =======
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Authentication" Version="6.0.4" />		
 		<PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.4" PrivateAssets="all" />
-		<PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.4" />
+		<PackageReference Include="Microsoft.Extensions.Identity.Core" Version="6.0.5" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Configuration" Version="5.0.0" />
 >>>>>>> parent of 6405ef4 (Bump Microsoft.Extensions.Logging.Configuration from 5.0.0 to 6.0.0 (#19))
 		<PackageReference Include="System.Net.Http.Json" Version="6.0.0" />
