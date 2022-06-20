@@ -25,8 +25,8 @@ jobs:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
           source-directory: output/
-          destination-github-username: 'bowen'
-          destination-repository-name: 'Spendvision/PlatformServices.Package.Update'
+          destination-github-username: 'Spendvision'
+          destination-repository-name: 'PlatformServices.Package.Update'
           user-email: bjia@fraedom.com      
           commit-message: See ORIGIN_COMMIT from $GITHUB_REF
           target-branch: main
