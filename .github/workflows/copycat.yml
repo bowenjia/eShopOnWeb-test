@@ -16,8 +16,8 @@ jobs:
             personal_token: ${{ secrets.API_TOKEN_GITHUB }}
             src_path: /output/test.yml
             dst_path: /output/test.yml
-            dst_owner: andstor
-            dst_repo_name: containers.github.io
+            dst_owner: bowenjia
+            dst_repo_name: containers
             dst_branch: main
             src_branch: main
             src_wiki: false
