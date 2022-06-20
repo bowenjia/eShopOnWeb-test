@@ -22,5 +22,5 @@ jobs:
             src_branch: main
             src_wiki: false
             dst_wiki: false
-            username: nutsbot
-            email: andr3.storhaug+bot@gmail.com
+            username: bowen-bowen
+            email: bowen+bot@gmail.com
