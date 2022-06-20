@@ -1,0 +1,32 @@
+name: Copy YML to others
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    #container: ubuntu-latest
+    steps:
+      - name: Copy
+        on: gollum
+        jobs:
+          copy:
+            runs-on: ubuntu-latest
+            steps:
+            - name: Copycat
+              uses: andstor/copycat-action@v3
+              with:
+                personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+                src_path: /output/test.yml
+                dst_path: /output/test.yml
+                dst_owner: andstor
+                dst_repo_name: containers.github.io
+                dst_branch: main
+                src_branch: main
+                src_wiki: false
+                dst_wiki: false
+                username: nutsbot
+                email: andr3.storhaug+bot@gmail.com
