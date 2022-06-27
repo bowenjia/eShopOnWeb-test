@@ -22,7 +22,7 @@
   <ItemGroup>
     <PackageReference Include="Ardalis.ApiEndpoints" Version="4.0.1" />
     <PackageReference Include="Ardalis.ListStartupServices" Version="1.1.4" />
-    <PackageReference Include="Ardalis.Specification" Version="6.0.1" />
+    <PackageReference Include="Ardalis.Specification" Version="6.1.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
 
     <PackageReference Include="MediatR" Version="10.0.1" />
